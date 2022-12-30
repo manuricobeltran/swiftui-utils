@@ -14,6 +14,7 @@
 		C3B8DA3C295EB752004BA5D0 /* SwiftUI_UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA3B295EB752004BA5D0 /* SwiftUI_UtilsTests.swift */; };
 		C3B8DA46295EB752004BA5D0 /* SwiftUI_UtilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA45295EB752004BA5D0 /* SwiftUI_UtilsUITests.swift */; };
 		C3B8DA48295EB752004BA5D0 /* SwiftUI_UtilsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA47295EB752004BA5D0 /* SwiftUI_UtilsUITestsLaunchTests.swift */; };
+		C3B8DA55295EB832004BA5D0 /* PreviewAndBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA54295EB832004BA5D0 /* PreviewAndBindings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C3B8DA41295EB752004BA5D0 /* SwiftUI UtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI UtilsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B8DA45295EB752004BA5D0 /* SwiftUI_UtilsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UtilsUITests.swift; sourceTree = "<group>"; };
 		C3B8DA47295EB752004BA5D0 /* SwiftUI_UtilsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UtilsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B8DA54295EB832004BA5D0 /* PreviewAndBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAndBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C3B8DA2C295EB752004BA5D0 /* ContentView.swift */,
 				C3B8DA2E295EB752004BA5D0 /* Assets.xcassets */,
 				C3B8DA30295EB752004BA5D0 /* Preview Content */,
+				C3B8DA54295EB832004BA5D0 /* PreviewAndBindings.swift */,
 			);
 			path = "SwiftUI Utils";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B8DA55295EB832004BA5D0 /* PreviewAndBindings.swift in Sources */,
 				C3B8DA2D295EB752004BA5D0 /* ContentView.swift in Sources */,
 				C3B8DA2B295EB752004BA5D0 /* SwiftUI_UtilsApp.swift in Sources */,
 			);
