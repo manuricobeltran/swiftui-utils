@@ -7,11 +7,14 @@
 
 import SwiftUI
 
-//
-//  Todo List
-//
+///
+/// Use fully working bindings with previews
+///
+///
+/// ToDo List
+///
 
-struct TodoListView: View {
+private struct TodoListView: View {
     @State var todos: [Todo]
     
     var body: some View {
@@ -31,10 +34,6 @@ struct TodoListView_Previews: PreviewProvider {
     }
 }
 
-//
-//  Todo Row
-//
-
 private struct TodoRowView: View {
     @Binding var todo: Todo
     
@@ -46,8 +45,13 @@ private struct TodoRowView: View {
     }
 }
 
-struct TodoRowView_Previews: PreviewProvider {
-    struct Container: View {
+// MARK: - Preview with bindings
+///
+/// Preview
+///
+
+struct TodoRowViewOption1_Previews: PreviewProvider {
+    private struct Container: View {
         @State var todo = Todo.sample
         var body: some View {
             TodoRowView(todo: $todo)
@@ -56,17 +60,15 @@ struct TodoRowView_Previews: PreviewProvider {
     
     static var previews: some View {
         Container()
-        StatefulPreviewContainer(Todo.sample) { binding in
-            TodoRowView(todo: binding)
-        }
     }
 }
+// MARK: - Stateful Preview Struct
 
-//
-//  Container for preview
-//
+///
+/// StatefulPreviewContainer
+///
 
-struct StatefulPreviewContainer<Value, Content: View>: View {
+private struct StatefulPreviewContainer<Value, Content: View>: View {
     @State var value: Value
     var content: (Binding<Value>) -> Content
     
@@ -80,7 +82,20 @@ struct StatefulPreviewContainer<Value, Content: View>: View {
     }
 }
 
-struct Todo {
+struct TodoRowViewOption2_Previews: PreviewProvider {
+    static var previews: some View {
+        StatefulPreviewContainer(Todo.sample) { binding in
+            TodoRowView(todo: binding)
+        }
+    }
+}
+// MARK: -
+
+///
+/// Model
+///
+
+private struct Todo {
     let title: String
     var completed: Bool = false
     
