@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30A52BA29AE73050002AB41 /* ScrollViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A52B929AE73050002AB41 /* ScrollViewUtils.swift */; };
 		C3B8DA2B295EB752004BA5D0 /* SwiftUI_UtilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA2A295EB752004BA5D0 /* SwiftUI_UtilsApp.swift */; };
 		C3B8DA2D295EB752004BA5D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8DA2C295EB752004BA5D0 /* ContentView.swift */; };
 		C3B8DA2F295EB752004BA5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B8DA2E295EB752004BA5D0 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C30A52B929AE73050002AB41 /* ScrollViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUtils.swift; sourceTree = "<group>"; };
 		C3B8DA27295EB752004BA5D0 /* SwiftUI Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B8DA2A295EB752004BA5D0 /* SwiftUI_UtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UtilsApp.swift; sourceTree = "<group>"; };
 		C3B8DA2C295EB752004BA5D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C3B8DA2C295EB752004BA5D0 /* ContentView.swift */,
 				C3B8DA2E295EB752004BA5D0 /* Assets.xcassets */,
 				C3B8DA54295EB832004BA5D0 /* PreviewAndBindings.swift */,
+				C30A52B929AE73050002AB41 /* ScrollViewUtils.swift */,
 			);
 			path = "SwiftUI Utils";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				C3B8DA55295EB832004BA5D0 /* PreviewAndBindings.swift in Sources */,
 				C3B8DA2D295EB752004BA5D0 /* ContentView.swift in Sources */,
+				C30A52BA29AE73050002AB41 /* ScrollViewUtils.swift in Sources */,
 				C3B8DA2B295EB752004BA5D0 /* SwiftUI_UtilsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
